@@ -1,5 +1,5 @@
+from estruturas.pilha import Pilha
 import re
-from pilha import *
 
 def busca_dados(pilha):
     return len(pilha) and pilha[len(pilha) - 1]

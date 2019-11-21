@@ -1,4 +1,4 @@
-from conversao import *
+from conversao import conversao1
 from infixa_posfixa import *
 import time
 import subprocess
@@ -14,7 +14,7 @@ def main():
         if (flag == False):
             expressao_regular = input('\nDigite a expressao regular: ')    
             expressao_regular = analise_expressao(expressao_regular)
-            automato = conversao(expressao_regular)
+            automato = conversao1(expressao_regular)
             automato.makeFile(arquivo,'NDFA')
             flag = True
     

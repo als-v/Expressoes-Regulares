@@ -1,9 +1,10 @@
 from infixa_posfixa import *
-from pilha import *
-from controle import *
+from estruturas.pilha import *
+from estruturas.modelo import Automato
+from src.controle import *
 
 # faz a conversao do alfabeto
-def conversao(alfabeto_entrada):
+def conversao1(alfabeto_entrada):
     pilha_alfabeto = Pilha()    
     alfabeto_pos_fixo = conversao(alfabeto_entrada)    
 
